@@ -8,7 +8,7 @@ sintegra-ie-validator é um pacote Python projetado para validar inscrições es
 Instale o pacote via pip:
 
 ```bash
-pip install ValidadorIE
+pip install sintegra-ie-validator
 ```
 
 ## Uso
