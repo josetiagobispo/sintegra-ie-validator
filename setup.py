@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='ValidadorIE',
-    version='0.1.2',  # Atualização da versão
+    name='sintegraIEValidator',
+    version='0.1.5',  # Atualização da versão
     packages=find_packages(),
     license='MIT',
     description='Um validador de inscrição estadual para estados brasileiros.',
@@ -18,7 +18,8 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.11',
     ],
     keywords='validação inscrição estadual brasil estados',
 )
+

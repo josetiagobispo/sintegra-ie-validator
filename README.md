@@ -1,36 +1,47 @@
 
 # sintegra-ie-validator
 
-sintegra-ie-validator é um pacote Python projetado para validar inscrições estaduais de diferentes estados brasileiros. Atualmente, suporta validações para os estados do Acre , Goias, Alagoas, São Paulo, Minas Gerais, Pernanbuco.
-Em breve mais Estados e Funcionalidades
+sintegraIEValidator é um pacote Python projetado para validar inscrições estaduais de diferentes estados brasileiros. Atualmente, suporta validações para os estados do Acre , Goias, Alagoas, São Paulo, Minas Gerais, Pernanbuco. Em breve mais Estados e Funcionalidades
+
+
 
 ## Instalação
 
 Instale o pacote via pip:
 
 ```bash
-pip install sintegra-ie-validator
+pip install sintegraIEValidator
 ```
 
 ## Uso
 
-Para usar o sintegra-ie-validator, importe a classe de validação correspondente ao estado desejado. Por exemplo:
+Para usar o sintegraIEValidator, importe a classe de validação correspondente ao estado desejado. Por exemplo:
+
+### Validando uma Inscrição Estadual de São Paulo
+
+```python
+from sintegraIEValidator import InscricaoEstadualSP
+
+validador_ac = InscricaoEstadualSP("652896367166")
+print(validador_ac.is_valid())
+```
+
 
 ### Validando uma Inscrição Estadual do Acre
 
 ```python
-from sintegra-ie-validator.acre import InscricaoEstadualAC
+from sintegraIEValidator import InscricaoEstadualAC
 
-validador_ac = InscricaoEstadualAC("inscricao_estadual_ac")
+validador_ac = InscricaoEstadualAC("0154899511703")
 print(validador_ac.is_valid())
 ```
 
 ### Validando uma Inscrição Estadual de Alagoas
 
 ```python
-from sintegra-ie-validator.alagoas import InscricaoEstadualAL
+from sintegraIEValidator import InscricaoEstadualAL
 
-validador_al = InscricaoEstadualAL("inscricao_estadual_al")
+validador_al = InscricaoEstadualAL("248368818")
 print(validador_al.is_valid())
 ```
 ## Disclaimer
@@ -44,5 +55,5 @@ Contribuições são bem-vindas, especialmente para expandir a validação para 
 
 Este projeto está sob a licença MIT.
 
-## Contribuições
-Contribuições são bem-vindas. Se você deseja contribuir com o desenvolvimento deste projeto, considere enviar um PIX para josetiagobsouza@gmail.com para um café
+## Ajude o Projeto
+Considere enviar um PIX para josetiagobsouza@gmail.com para um café , ficarei muito grato.
