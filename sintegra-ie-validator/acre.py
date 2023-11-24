@@ -1,4 +1,5 @@
 
+from .base import InscricaoEstadual
 class InscricaoEstadualAC(InscricaoEstadual):
     '''
     Classe para verificação da inscrição estadual do Acre.

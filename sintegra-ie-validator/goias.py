@@ -1,3 +1,4 @@
+from .base import InscricaoEstadual
 class InscricaoEstadualGO(InscricaoEstadual):
     '''
     Classe para verificação da inscrição estadual de Goiás.

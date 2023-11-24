@@ -1,3 +1,4 @@
+from .base import InscricaoEstadual
 class InscricaoEstadualMG(InscricaoEstadual):
     '''
     Classe para verificação da inscrição estadual de Minas Gerais.

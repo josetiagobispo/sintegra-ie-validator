@@ -1,4 +1,4 @@
-
+from .base import InscricaoEstadual
 class InscricaoEstadualAL(InscricaoEstadual):
     '''
     Classe para verificação da inscrição estadual de Alagoas.

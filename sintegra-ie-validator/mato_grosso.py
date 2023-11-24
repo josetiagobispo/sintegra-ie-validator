@@ -1,3 +1,4 @@
+from .base import InscricaoEstadual
 class InscricaoEstadualMT(InscricaoEstadual):
     '''
     Classe para verificação da inscrição estadual do Mato Grosso.

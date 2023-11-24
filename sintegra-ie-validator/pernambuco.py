@@ -1,3 +1,4 @@
+from .base import InscricaoEstadual
 class InscricaoEstadualPE(InscricaoEstadual):
     '''
     Classe para verificação da inscrição estadual de Pernambuco.
