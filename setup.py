@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='sintegraIEValidator',
-    version='0.1.5',  # Atualização da versão
+    version='0.1.6',
     packages=find_packages(),
     license='MIT',
     description='Um validador de inscrição estadual para estados brasileiros.',
@@ -10,7 +10,7 @@ setup(
     long_description_content_type='text/markdown',
     author='Seu Nome',
     author_email='seuemail@example.com',
-    url='https://github.com/seuusuario/validadorie',
+    url='https://github.com/josetiagobispo/sintegra-ie-validator',
     install_requires=[],
     classifiers=[
         'Development Status :: 3 - Alpha',
