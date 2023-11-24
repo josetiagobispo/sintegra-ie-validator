@@ -19,7 +19,7 @@ Para usar o sintegra-ie-validator, importe a classe de validação correspondent
 ### Validando uma Inscrição Estadual do Acre
 
 ```python
-from ValidadorIE.acre import InscricaoEstadualAC
+from sintegra-ie-validator.acre import InscricaoEstadualAC
 
 validador_ac = InscricaoEstadualAC("inscricao_estadual_ac")
 print(validador_ac.is_valid())
@@ -28,7 +28,7 @@ print(validador_ac.is_valid())
 ### Validando uma Inscrição Estadual de Alagoas
 
 ```python
-from ValidadorIE.alagoas import InscricaoEstadualAL
+from sintegra-ie-validator.alagoas import InscricaoEstadualAL
 
 validador_al = InscricaoEstadualAL("inscricao_estadual_al")
 print(validador_al.is_valid())
