@@ -1,5 +1,5 @@
 
-# ValidadorIE
+# sintegra-ie-validator
 
 sintegra-ie-validator é um pacote Python projetado para validar inscrições estaduais de diferentes estados brasileiros. Atualmente, suporta validações para os estados do Acre e Alagoas.
 
@@ -8,7 +8,7 @@ sintegra-ie-validator é um pacote Python projetado para validar inscrições es
 Instale o pacote via pip:
 
 ```bash
-pip install ValidadorIE
+pip install sintegra-ie-validator
 ```
 
 ## Uso
