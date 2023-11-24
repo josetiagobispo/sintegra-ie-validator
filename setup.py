@@ -1,17 +1,16 @@
-
 from setuptools import setup, find_packages
 
 setup(
-    name='sintegra-ie-validator',
-    version='0.1.1',
+    name='ValidadorIE',
+    version='0.1.2',  # Atualização da versão
     packages=find_packages(),
     license='MIT',
-    description='Um validador de inscrição estadual para estados brasileiros, incluindo Acre e Alagoas.',
+    description='Um validador de inscrição estadual para estados brasileiros.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    author='José Tiago',
-    author_email='josetiagobsouza@gmail.com',
-    url='https://github.com/josetiagobispo/sintegra-ie-validator',
+    author='Seu Nome',
+    author_email='seuemail@example.com',
+    url='https://github.com/seuusuario/validadorie',
     install_requires=[],
     classifiers=[
         'Development Status :: 3 - Alpha',
