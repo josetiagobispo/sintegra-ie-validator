@@ -32,7 +32,7 @@ from ValidadorIE.alagoas import InscricaoEstadualAL
 validador_al = InscricaoEstadualAL("inscricao_estadual_al")
 print(validador_al.is_valid())
 ```
-##Disclaimer
+## Disclaimer
 Este pacote é fornecido "como está", sem garantias de qualquer tipo. Os desenvolvedores não são responsáveis por quaisquer bugs ou problemas.
 
 ## Contribuições
@@ -43,5 +43,5 @@ Contribuições são bem-vindas, especialmente para expandir a validação para 
 
 Este projeto está sob a licença MIT.
 
-##Contribuições
+## Contribuições
 Contribuições são bem-vindas. Se você deseja contribuir com o desenvolvimento deste projeto, considere enviar um PIX para josetiagobsouza@gmail.com para um café
